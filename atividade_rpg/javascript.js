@@ -34,3 +34,24 @@ let listaHabilidades = [
     new Habilidade(3, "💥 supremo", 15, 0, 100),
     
 ];
+document 
+.getElementById("nome-hero")
+.textContent = hero.nome;
+
+document
+.getElementById("titulo-hero")
+.textContent = hero.titulo;
+
+document 
+.getElementById("nome-boss")
+.textContent = boss.nome;
+
+document
+.getElementById("titulo-boss")
+.textContent = boss.titulo;
+
+
+listaHabilidades.forEach(hab => {
+    let hab = document.createElement("button");
+    btn.inerText = hab.nome;
+})
